@@ -1,0 +1,204 @@
+# =====================================================
+# COMPREHENSIVE .GITIGNORE FOR LARAVEL + FLUTTER
+# =====================================================
+
+# =====================================================
+# LARAVEL PROJECT (love248/)
+# =====================================================
+
+# Laravel specific
+love248/vendor/
+love248/node_modules/
+love248/public/hot
+love248/public/storage
+love248/storage/*.key
+love248/storage/app/public/
+love248/storage/framework/
+love248/storage/logs/
+love248/bootstrap/cache/
+love248/.env
+love248/.env.backup
+love248/.env.production
+love248/.phpunit.result.cache
+love248/Homestead.json
+love248/Homestead.yaml
+love248/auth.json
+love248/npm-debug.log
+love248/yarn-error.log
+love248/.DS_Store
+love248/Thumbs.db
+
+# Laravel Mix
+love248/public/js/
+love248/public/css/
+love248/public/mix-manifest.json
+
+# IDE files for Laravel
+love248/.vscode/
+love248/.idea/
+love248/*.swp
+love248/*.swo
+
+# =====================================================
+# FLUTTER PROJECT (premium_app/)
+# =====================================================
+
+# Flutter/Dart specific
+premium_app/.dart_tool/
+premium_app/.flutter-plugins
+premium_app/.flutter-plugins-dependencies
+premium_app/.packages
+premium_app/.pub-cache/
+premium_app/.pub/
+premium_app/build/
+premium_app/flutter_*.png
+premium_app/flutter_*.jpg
+premium_app/flutter_*.jpeg
+premium_app/flutter_*.gif
+premium_app/flutter_*.webp
+
+# iOS specific
+premium_app/ios/Flutter/Generated.xcconfig
+premium_app/ios/Flutter/flutter_export_environment.sh
+premium_app/ios/Flutter/App.framework
+premium_app/ios/Flutter/Flutter.framework
+premium_app/ios/Flutter/Flutter.podspec
+premium_app/ios/ServiceDefinitions.json
+premium_app/ios/Runner/GeneratedPluginRegistrant.*
+premium_app/ios/Pods/
+premium_app/ios/Podfile.lock
+premium_app/ios/.symlinks/
+premium_app/ios/Flutter/flutter_assets/
+premium_app/ios/DerivedData/
+
+# Android specific
+premium_app/android/app/debug
+premium_app/android/app/profile
+premium_app/android/app/release
+premium_app/android/.gradle/
+premium_app/android/captures/
+premium_app/android/gradlew
+premium_app/android/gradlew.bat
+premium_app/android/local.properties
+premium_app/android/**/GeneratedPluginRegistrant.java
+premium_app/android/key.properties
+premium_app/android/app/google-services.json
+premium_app/android/app/src/main/res/values/strings.xml
+
+# Web specific
+premium_app/web/favicon.png
+premium_app/web/icons/Icon-192.png
+premium_app/web/icons/Icon-512.png
+premium_app/web/manifest.json
+
+# Windows specific
+premium_app/windows/flutter/generated_plugin_registrant.cc
+premium_app/windows/flutter/generated_plugin_registrant.h
+
+# macOS specific
+premium_app/macos/Flutter/GeneratedPluginRegistrant.swift
+premium_app/macos/Flutter/ephemeral/
+
+# Linux specific
+premium_app/linux/flutter/generated_plugin_registrant.cc
+premium_app/linux/flutter/generated_plugin_registrant.h
+
+# IDE files for Flutter
+premium_app/.vscode/
+premium_app/.idea/
+premium_app/*.iml
+premium_app/*.ipr
+premium_app/*.iws
+
+# =====================================================
+# GENERAL FILES (SYSTEM & SECURITY)
+# =====================================================
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Security & Credentials
+*.key
+*.pem
+*.p12
+*.p8
+*.mobileprovision
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+keystore.jks
+key.properties
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Large files that shouldn't be in git
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.iso
+*.dmg
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.directory
+.fuse_hidden*
+.nfs*
+
+# =====================================================
+# PROJECT SPECIFIC
+# =====================================================
+
+# Documentation that might contain sensitive info
+Technical\ Overview-\ Final\ goal\ \(1\).docx
+*.docx
+*.pdf
+
+# Database files
+*.sql
+*.sqlite
+*.db
+
+# Backup files
+*.backup
+*.bak
+*.old

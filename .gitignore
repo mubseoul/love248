@@ -1,0 +1,15 @@
+love248/node_modules/
+love248/.env*
+love248/vite.config.js
+love248/storage
+love248/public/build/
+love248/public/storage/*
+love248/public/videos/
+love248/public/uploads/
+love248/public/uploads/videos/
+love248/public/uploads/images/
+love248/public/profilePics/
+love248/vendor/*
+love248/app/Services/VideoProcessingService.php*
+love248/public/hot*
+love248/bootstrap/cache/*

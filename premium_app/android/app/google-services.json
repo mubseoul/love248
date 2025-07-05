@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "25567581938",
+    "project_id": "premiumwork",
+    "storage_bucket": "premiumwork.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25567581938:android:fedc22eeb52d443e62626b",
+        "android_client_info": {
+          "package_name": "com.premiumwork.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOT1TXZIRg4y0G8uI-Dudgv-O6rQc8iEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
